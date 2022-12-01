@@ -1,0 +1,53 @@
+
+
+.menu {
+	display: flex;
+}
+
+.menu li a {
+	margin-right: 40px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px #000;
+	color: #fff;
+}
+
+.nav {
+	margin-left: 40px;
+	padding-top: 40px;
+}
+
+
+.header {
+	background: url('../img/fon.jpg') no-repeat center top / cover;
+}
+
+.imgs {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 40px;
+}
+
+.smeshno {
+	display: flex;
+	font-size: 40px;
+	color: #fa1e3e;
+	text-shadow: 2px 2px 2px #000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.btn {
+	display: block;
+	broder: 1px solid #000;
+	font-size: 60px;
+	font-family: Italianno;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #fa1e3e;
+	color: #000;
+}
